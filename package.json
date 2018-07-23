@@ -1,0 +1,12 @@
+{
+  "name": "node-cpp-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "module.js",
+  "scripts": {
+    "start": "node-gyp clear configure build && nodemon module.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albert Sharapov",
+  "license": "MIT"
+}
